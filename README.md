@@ -14,7 +14,7 @@ Start up the Deadbird server by running `npm start`. This'll start the web serve
 
 ### Available fetchers and helper scripts
 ##### Fetcher
-###### Fetchers the last ~20 tweets from a user's timeline and inserts new tweets into into the database.
+###### Fetchers the last ~20 tweets from a user's timeline and inserts new tweets into the database.
 - Runs with a delay of 0 by default (`fetcherRestInterval`).
 - Delay should be 0 or very low to ensure that as many tweets can be fetched as possible.
 - Depending on how much traffic your internet connection can handle, you should limit the number of users you are tracking. If you track too many users, it'll take longer for the fetcher to check everyone and it might be possible that someone could have tweeted something and instantly deleted it before being detected by the fetcher.
