@@ -197,6 +197,14 @@ module.exports = {
         </li>`
         );
 
+        // Replace logo
+        $('#global-nav-home > a').html(`<img src="img/deadbird.svg" style="
+            height: 25px;
+            float: left;
+            margin-top: 5px;
+        "> <span class="text">Home</span>`);
+        $('#global-nav-home').css('margin-top', '0px');
+
 
         // Extract profile pic and replace with local version
         let profileImage = $('.ProfileAvatar-image').attr('src');
